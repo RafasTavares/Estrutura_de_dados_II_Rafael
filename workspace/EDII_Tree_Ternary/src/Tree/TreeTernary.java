@@ -1,109 +1,110 @@
 package Tree;
 
-
 public class TreeTernary {
 
-		private TreeNode raiz; //root
+	private TreeNode raiz; // root
 
-		public TreeTernary()
-		{
+	public TreeTernary() {
 		raiz = null;
-		}
+	}
 
-		public void insereNode(int insertValue){
+	public void insereNode(int insertValue) {
 		if (raiz == null)
-		raiz = new TreeNode(insertValue);
+			raiz = new TreeNode(insertValue);
 		else
-		raiz.insereNode(insertValue);
-		}
+			raiz.insereNode(insertValue);
+	}
 
-		//começa percurso na pré-ordem
-		public void preorderTraversal(){
-		preorderHelper(raiz); }
+	// começa percurso na pré-ordem
+	public void preorderTraversal() {
+		preorderHelper(raiz);
+	}
 
-		//método recursivo para fazer percurso na pré-ordem
-		private void preorderHelper(TreeNode node){
+	// método recursivo para fazer percurso na pré-ordem
+	private void preorderHelper(TreeNode node) {
 		if (node == null)
-		return ;
+			return;
 
 		System.out.print(node.info + " , ");
 
-		//percorre a subarvore a esquerda
+		// percorre a subarvore a esquerda
 		preorderHelper(node.esquerdaNode);
-		//percorre a subarvore a direira
+		// percorre a subarvore a direira
 		preorderHelper(node.direitaNode);
-		}
-		//começa o percurso na ordem
-		public void inorderTraversal(){
-		inorderHelper(raiz); }
+	}
 
-		//método recursivo para fazer o percurso na ordem
-		private void inorderHelper(TreeNode node){
+	// começa o percurso na ordem
+	public void inorderTraversal() {
+		inorderHelper(raiz);
+	}
+
+	// método recursivo para fazer o percurso na ordem
+	private void inorderHelper(TreeNode node) {
 		if (node == null)
-		return ;
-		//percorre a subarvore a esquerda
+			return;
+		// percorre a subarvore a esquerda
 		inorderHelper(node.esquerdaNode);
 
 		System.out.print(node.info + " , ");
 
-		//percorre a subarvore a direita
+		// percorre a subarvore a direita
 		inorderHelper(node.direitaNode);
-		}
+	}
 
-		//começa o percurso na pós-ordem
-		public void postorderTraversal(){
-		postorderHelper(raiz); }
+	// começa o percurso na pós-ordem
+	public void postorderTraversal() {
+		postorderHelper(raiz);
+	}
 
-		//método recursivo para fazer o percurso na pós-ordem
-		private void postorderHelper(TreeNode node){
+	// método recursivo para fazer o percurso na pós-ordem
+	private void postorderHelper(TreeNode node) {
 		if (node == null)
-		return ;
-		//percorre a subarvore esquerda
+			return;
+		// percorre a subarvore esquerda
 		postorderHelper(node.esquerdaNode);
-		//percorre a subarvore direita
+		// percorre a subarvore direita
 		postorderHelper(node.direitaNode);
 
 		System.out.print(node.info + " , ");
-		}
+	}
 
+	// começa o percurso na ordem
+	public void TodasFolhas() {
+		Folhas(raiz);
+	}
 
-		//começa o percurso na ordem
-		public void TodasFolhas(){
-		Folhas(raiz); }
-
-		//método recursivo para fazer o percurso na ordem
-		private void Folhas(TreeNode node){
+	// método recursivo para fazer o percurso na ordem
+	private void Folhas(TreeNode node) {
 		if (node == null)
-		return ;
-		//percorre a subarvore a esquerda
+			return;
+		// percorre a subarvore a esquerda
 		Folhas(node.esquerdaNode);
 
-		if ((node.esquerdaNode == null) && (node.direitaNode == null))
-		{
-		System.out.print(node.info + " , ");
+		if ((node.esquerdaNode == null) && (node.direitaNode == null)) {
+			System.out.print(node.info + " , ");
 		}
 
-		//percorre a subarvore a direita
+		// percorre a subarvore a direita
 		Folhas(node.direitaNode);
-		}
+	}
 
-		//começa o percurso na ordem
-		public void TodosInternos(){
-		Internos(raiz); }
+	// começa o percurso na ordem
+	public void TodosInternos() {
+		Internos(raiz);
+	}
 
-		//método recursivo para fazer o percurso na ordem
-		private void Internos(TreeNode node){
+	// método recursivo para fazer o percurso na ordem
+	private void Internos(TreeNode node) {
 		if (node == null)
-		return ;
-		//percorre a subarvore a esquerda
+			return;
+		// percorre a subarvore a esquerda
 		Internos(node.esquerdaNode);
 
-		if ((node.esquerdaNode != null) || (node.direitaNode != null))
-		{
-		System.out.print(node.info + " , ");
+		if ((node.esquerdaNode != null) || (node.direitaNode != null)) {
+			System.out.print(node.info + " , ");
 		}
 
-		//percorre a subarvore a direita
+		// percorre a subarvore a direita
 		Internos(node.direitaNode);
-		} 
+	}
 }
