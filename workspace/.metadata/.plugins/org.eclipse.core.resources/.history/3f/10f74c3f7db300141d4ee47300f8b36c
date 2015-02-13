@@ -14,20 +14,19 @@ public class Test_Tree_Ternary {
 	@Before
 	public void createTrie() {
 		ternaryTrie = new TreeTernary<Integer>();
-		ternaryTrie.put("sea", 2);
-		ternaryTrie.put("sells", 4);
-		ternaryTrie.put("ela", 1);
-		ternaryTrie.put("shells", 1);
-		ternaryTrie.put("by", 1);
-		ternaryTrie.put("the", 2);
-		ternaryTrie.put("shore", 3);
+		ternaryTrie.put("a", 1);
+		ternaryTrie.put("b", 1);
+		ternaryTrie.put("c", 3);
+		ternaryTrie.put("d", 1);
+		ternaryTrie.put("e", 1);
+		ternaryTrie.put("f", 1);
 	}
 
 	@Test
 	public void testContains() {
 		assert ternaryTrie.contains("sea") == true;
 		assert ternaryTrie.contains("sells") == true;
-		assert ternaryTrie.contains("ela") == true;
+		assert ternaryTrie.contains("she") == true;
 		assert ternaryTrie.contains("shells") == true;
 		assert ternaryTrie.contains("by") == true;
 		assert ternaryTrie.contains("the") == true;
@@ -42,7 +41,7 @@ public class Test_Tree_Ternary {
 	public void testGetValue() {
 		assert ternaryTrie.getValue("sea") == 2;
 		assert ternaryTrie.getValue("sells") == 4;
-		assert ternaryTrie.getValue("ela") == 1;
+		assert ternaryTrie.getValue("she") == 1;
 		assert ternaryTrie.getValue("shells") == 1;
 		assert ternaryTrie.getValue("by") == 1;
 		assert ternaryTrie.getValue("the") == 2;
@@ -57,7 +56,7 @@ public class Test_Tree_Ternary {
 	public void testDelete() {
 		ternaryTrie.delete("sea");
 		ternaryTrie.delete("sells");
-		ternaryTrie.delete("ela");
+		ternaryTrie.delete("she");
 		ternaryTrie.delete("s");
 		ternaryTrie.delete("seaa");
 		ternaryTrie.delete("sellsa");
@@ -70,7 +69,7 @@ public class Test_Tree_Ternary {
 		ternaryTrie.delete("sells");
 		assert ternaryTrie.contains("sea") == false;
 		assert ternaryTrie.contains("sells") == false;
-		assert ternaryTrie.contains("ela") == false;
+		assert ternaryTrie.contains("she") == false;
 		assert ternaryTrie.contains("shells") == false;
 		assert ternaryTrie.contains("by") == false;
 		assert ternaryTrie.contains("the") == false;
