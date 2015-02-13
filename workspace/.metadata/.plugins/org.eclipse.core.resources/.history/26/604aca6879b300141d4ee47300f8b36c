@@ -7,9 +7,19 @@ public class Arvore {
 		TreeTernary t = new TreeTernary();
 		t.insereNode(1);
 		t.insereNode(2);
+
 		t.insereNode(3);
-		t.insereNode(4);
-		
+
+		t.insereNode(9);
+
+		t.insereNode(5);
+
+		t.insereNode(6);
+
+		t.insereNode(7);
+
+		t.insereNode(8);
+
 		System.out.print("Pre\n");
 		t.preorderTraversal();
 		System.out.print("\nIn\n");

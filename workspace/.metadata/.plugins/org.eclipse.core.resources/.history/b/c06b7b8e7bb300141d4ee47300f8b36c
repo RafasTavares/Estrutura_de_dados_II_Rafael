@@ -3,12 +3,12 @@ package Tree;
 public class TreeNode<T extends Comparable<T>> {
 	
     // VARIAVEIS
-	TreeNode esquerdaNode;
+	TrieNode esquerdaNode;
 	int info;
-	TreeNode direitaNode; 
+	TrieNode direitaNode; 
 	
 	//CONSTRUTOR
-	public TreeNode(int nodeInfo) {
+	public TrieNode(int nodeInfo) {
 		info = nodeInfo;
 		esquerdaNode = direitaNode = null;
 	}
@@ -18,7 +18,7 @@ public class TreeNode<T extends Comparable<T>> {
 		if (insertValue < info) {
 			//
 			if (esquerdaNode == null)
-				esquerdaNode = new TreeNode(insertValue);
+				esquerdaNode = new TrieNode(insertValue);
 			//
 			else
 				esquerdaNode.insereNode(insertValue);
@@ -26,7 +26,7 @@ public class TreeNode<T extends Comparable<T>> {
 		} else if (insertValue > info) {
 			//
 			if (direitaNode == null)
-				direitaNode = new TreeNode(insertValue);
+				direitaNode = new TrieNode(insertValue);
 			//
 			else
 				direitaNode.insereNode(insertValue);

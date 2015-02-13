@@ -1,6 +1,6 @@
 package Tree;
 
-public class TreeTernary {
+public class TernaryTrie {
 
 	private TreeNode raiz; // root
 

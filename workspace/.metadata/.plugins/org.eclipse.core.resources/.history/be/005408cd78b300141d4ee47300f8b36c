@@ -4,7 +4,6 @@ public class TreeTernary {
 
 	private TreeNode raiz; // root
 
-	// Construtor
 	public TreeTernary() {
 		raiz = null;
 	}

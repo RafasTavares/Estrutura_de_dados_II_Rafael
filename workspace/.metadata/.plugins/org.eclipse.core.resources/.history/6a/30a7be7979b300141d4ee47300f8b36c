@@ -8,8 +8,7 @@ public class Arvore {
 		t.insereNode(1);
 		t.insereNode(2);
 		t.insereNode(3);
-		t.insereNode(4);
-		
+
 		System.out.print("Pre\n");
 		t.preorderTraversal();
 		System.out.print("\nIn\n");

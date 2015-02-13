@@ -1,6 +1,6 @@
 package Tree;
 
-public class TreeNode<T extends Comparable<T>> {
+public class TrieNode<T extends Comparable<T>> {
 	
     // VARIAVEIS
 	TreeNode esquerdaNode;
