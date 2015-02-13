@@ -1,0 +1,7 @@
+package Tree;
+
+public class No<T extends Comparable<T>> {
+	T valor;
+	No<T> pai;
+	No<T> {filhos}
+}

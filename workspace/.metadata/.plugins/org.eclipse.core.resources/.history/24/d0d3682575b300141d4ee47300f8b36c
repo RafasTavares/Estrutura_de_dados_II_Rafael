@@ -1,0 +1,31 @@
+package Tree;
+
+public class Node<T extends Comparable<T>> {
+	/// Variáveis
+	T valor;
+	No<T> pai;
+	No<T> filhos;
+	
+	public Node() {
+	
+	}
+	
+	public T getValor() {
+		return valor;
+	}
+	public void setValor(T valor) {
+		this.valor = valor;
+	}
+	public No<T> getPai() {
+		return pai;
+	}
+	public void setPai(No<T> pai) {
+		this.pai = pai;
+	}
+	public No<T> getFilhos() {
+		return filhos;
+	}
+	public void setFilhos(No<T> filhos) {
+		this.filhos = filhos;
+	}
+}
