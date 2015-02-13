@@ -3,19 +3,24 @@ package Tree;
 public class TernaryTree {
 	TreeNode root;
 
-	// Constructor
+	/*
+	 * Constructor
+	 */
 	public TernaryTree() {
 		root = null;
 	}
 
-	// Metodo de inserir na arvore
+	/*
+	 * Metodo de inserir na arvore
+	 */
 	public void insert(int value) {
 		root = insert(root, value);
 	}
 
 	/*
-	* Método para criar um novo nó com o valor determinado e inseri-lo para a arvore ternaria
-	*/ 
+	 * Método para criar um novo nó com o valor determinado e inseri-lo para a
+	 * arvore ternaria
+	 */
 	private TreeNode insert(TreeNode root, int value) {
 		if (root == null) {
 			root = new TreeNode(value);
@@ -40,7 +45,6 @@ public class TernaryTree {
 	 * Deleta um valor da arvore ternaria
 	 */
 	public void delete(int value) {
-		System.out.println("Delete " + value + " from the Tree...");
 		root = delete(root, value);
 	}
 
@@ -93,9 +97,9 @@ public class TernaryTree {
 
 	/*
 	 * Encontre o elemento máximo da sub-árvore a partir do dado "root" nó
-	 * Elemento máximo é a criança com o botão direito do mais à direita subárvore do dado
-	 * Nó de árvore
-	*/ 
+	 * Elemento máximo é a criança com o botão direito do mais à direita
+	 * subárvore do dado Nó de árvore
+	 */
 	public TreeNode findMax(TreeNode root) {
 		if (root == null) {
 			return root;
@@ -108,9 +112,7 @@ public class TernaryTree {
 		return root;
 	}
 
-	/*
-	* Método para verificar se o nó com o valor dado está presente na árvore ou não 
-	*/
+	// Método para verificar se o nó com o valor dado está presente na árvore ou não
 	public boolean isPresent(TreeNode root, int value) {
 		if (root == null) {
 			return false;
@@ -123,7 +125,7 @@ public class TernaryTree {
 		}
 		return false;
 	}
-	
+
 	// Percorre a Árvore em ordem a partir da raiz da árvore Ternaria
 	public void traverseTree(TreeNode root) {
 		if (root != null) {
@@ -134,37 +136,50 @@ public class TernaryTree {
 		}
 	}
 
-	/*
-	 *  Metodo para percorer a arvore ternaria
-	 */
+	// Metodo para percorer a arvore ternaria
 	public void traverseTree() {
 		if (this.root == null) {
 			System.out.println("Arvore Vazia");
 		} else
 			traverseTree(root);
 	}
-	
-	/*
-	 *  retorna o obj root
-	 */
-	public TreeNode getRoot (){
-		return this.root;	
+
+	// Retorna o obj root
+	public TreeNode getRoot() {
+		return this.root;
 	}
-	
-	/*
-	 * Retorna o valor do root
-	 */
-	public int getRootValue (){
-		return root.getData();	
+
+	// Retorna o valor do root
+	public int getRootValue() {
+		return root.getData();
+	}
+
+	// Retorna os filhos do pai
+	public int getFilhos(TreeNode raiz) {
+		System.out.println("-------------------------------------");
+		if (raiz == null) {
+			System.out.println("Root não existe");
+		} else {
+			if (raiz.getLeft() != null) {
+				System.out.println("Filho esquerdo: "
+						+ raiz.getLeft().getData());
+			} else {
+				System.out.println("Filho esquerdo não existe");
+			}
+			if (raiz.getCenter() != null) {
+				System.out.println("Filho central: "
+						+ raiz.getCenter().getData());
+			} else {
+				System.out.println("Filho central não existe;");
+			}
+			if (raiz.getRight() != null) {
+				System.out.println("Filho Direito: "
+						+ raiz.getRight().getData());
+			} else {
+				System.out.println("Filho direito não existe;");
+			}
+		}
+		System.out.println("-------------------------------------");
+		return 0;
 	}
 }
-
-
-
-
-
-
-
-
-
-

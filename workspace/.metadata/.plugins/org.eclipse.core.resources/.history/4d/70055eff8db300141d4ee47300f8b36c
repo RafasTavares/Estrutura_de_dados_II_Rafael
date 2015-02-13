@@ -1,0 +1,187 @@
+package Tree;
+
+public class TernaryTree {
+	TreeNode root;
+
+	/*
+	 * Constructor
+	 */
+	public TernaryTree() {
+		root = null;
+	}
+
+	/*
+	 * Metodo de inserir na arvore
+	 */
+	public void insert(int value) {
+		root = insert(root, value);
+	}
+
+	/*
+	 * Método para criar um novo nó com o valor determinado e inseri-lo para a
+	 * arvore ternaria
+	 */
+	private TreeNode insert(TreeNode root, int value) {
+		if (root == null) {
+			root = new TreeNode(value);
+			root.setLeft(null);
+			root.setRight(null);
+			root.setCenter(null);
+		} else {
+			if (value < root.getData()) {
+				root.setLeft(insert(root.getLeft(), value));
+			}
+			if (value == root.getData()) {
+				root.setCenter(insert(root.getCenter(), value));
+			}
+			if (value > root.getData()) {
+				root.setRight(insert(root.getRight(), value));
+			}
+		}
+		return root;
+	}
+
+	/*
+	 * Deleta um valor da arvore ternaria
+	 */
+	public void delete(int value) {
+		root = delete(root, value);
+	}
+
+	/*
+	 * Método para excluir o nó com um valor give da Árvore de Trinary
+	 */
+	private TreeNode delete(TreeNode root, int value) {
+		if (isPresent(root, value)) {
+			if (root == null) {
+				return root;
+			}
+			if (value < root.getData()) {
+				root.setLeft(delete(root.getLeft(), value));
+			} else if (value > root.getData()) {
+				root.setRight(delete(root.getRight(), value));
+			} else { // found element to delete
+				if (root.getLeft() == null && root.getCenter() == null
+						&& root.getRight() == null) {
+					root = null;
+					return root;
+				}
+				if (root.center != null) {
+					root.setCenter(delete(root.getCenter(), value));
+				} else {
+					if (root.getLeft() != null && root.getRight() != null) {
+						// Find Largest element in left subtree
+						// replace current Node's data with the Largest Left
+						// subtree data
+						TreeNode temp = findMax(root.getLeft());
+						root.setData(temp.getData());
+						root.setLeft(delete(root.getLeft(), temp.getData()));
+						;
+					} else if (root.getLeft() == null) {
+						root = root.getRight();
+						return root;
+					} else if (root.getRight() == null) {
+						root = root.getLeft();
+						return root;
+					}
+				}
+			}
+		} else {
+			System.out.println(value + " not present in the Trinary tree");
+		}
+		if (isPresent(root, value)) {
+			root = delete(root, value);
+		}
+		return root;
+	}
+
+	/*
+	 * Encontre o elemento máximo da sub-árvore a partir do dado "root" nó
+	 * Elemento máximo é a criança com o botão direito do mais à direita
+	 * subárvore do dado Nó de árvore
+	 */
+	public TreeNode findMax(TreeNode root) {
+		if (root == null) {
+			return root;
+		} else {
+			while (root.getRight() != null) {
+				root = root.getRight();
+			}
+		}
+		// System.out.println("Max element = " + root.getData());
+		return root;
+	}
+
+	/*
+	 * Método para verificar se o nó com o valor dado está presente na árvore ou
+	 * não
+	 */
+	public boolean isPresent(TreeNode root, int value) {
+		if (root == null) {
+			return false;
+		} else if (value == root.getData()) {
+			return true;
+		} else if (value < root.getData()) {
+			return isPresent(root.getLeft(), value);
+		} else if (value > root.getData()) {
+			return isPresent(root.getRight(), value);
+		}
+		return false;
+	}
+
+	/*
+	 * Percorre a Árvore em ordem a partir da raiz da árvore Ternaria
+	 */
+	public void traverseTree(TreeNode root) {
+		if (root != null) {
+			traverseTree(root.getLeft());
+			traverseTree(root.getCenter());
+			System.out.print(root.getData() + " ");
+			traverseTree(root.getRight());
+		}
+	}
+
+	/*
+	 * Metodo para percorer a arvore ternaria
+	 */
+	public void traverseTree() {
+		if (this.root == null) {
+			System.out.println("Arvore Vazia");
+		} else
+			traverseTree(root);
+	}
+
+	/*
+	 * retorna o obj root
+	 */
+	public TreeNode getRoot() {
+		return this.root;
+	}
+
+	/*
+	 * Retorna o valor do root
+	 */
+	public int getRootValue() {
+		return root.getData();
+	}
+
+	/*
+	 * Retorna os filhos do pai
+	 */
+	public int getFilhos(TreeNode raiz) {
+		System.out.println("-------------------------------------");
+		if (raiz == null) {
+			System.out.println("Root não existe");
+		} else if (raiz.getLeft() != null) {
+			System.out.println("Filho esquerdo: " + raiz.getLeft().getData());
+		} else {
+			System.out.println("Filho esquerdo não existe");
+		} else if (raiz.getRight() != null) {
+			System.out.println("Filho Direito: " + raiz.getRight().getData());
+		} else {
+			System.out.println("Filho direito não existe;");
+		}
+		System.out.println("-------------------------------------");
+		return 0;
+	}
+}
