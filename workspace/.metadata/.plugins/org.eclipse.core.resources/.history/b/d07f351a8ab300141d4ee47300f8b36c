@@ -36,7 +36,6 @@ public class Test_Tree_Ternary {
 
 	@Test
 	public void testIsPresent() {
-		assertEquals(tree.isPresent(tree.getRoot(), 7), true);
 		System.out.println("Contem 7 na arvore: "
 				+ tree.isPresent(tree.getRoot(), 7));
 	}
@@ -49,7 +48,6 @@ public class Test_Tree_Ternary {
 	
 	@Test
 	public void testGetRoot() {
-		assertEquals(tree.getRootValue(), 7);
-		System.out.println("Raiz: " + tree.getRootValue());
+		System.out.println("Raiz: " + tree.getRoot().getData());
 	}
 }

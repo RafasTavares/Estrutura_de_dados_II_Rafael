@@ -124,7 +124,7 @@ public class TernaryTree {
 		return false;
 	}
 	
-	// Percorre a Árvore em ordem a partir da raiz da árvore Ternaria
+	// Passagem da Árvore em ordem a partir da raiz da árvore Ternaria
 	public void traverseTree(TreeNode root) {
 		if (root != null) {
 			traverseTree(root.getLeft());
@@ -138,10 +138,14 @@ public class TernaryTree {
 	 *  Metodo para percorer a arvore ternaria
 	 */
 	public void traverseTree() {
+		System.out.println("---------------------------------------------");
+		System.out.println("Passagem da arvore a partir da raiz : ");
 		if (this.root == null) {
 			System.out.println("Arvore Vazia");
 		} else
 			traverseTree(root);
+		System.out.println();
+		System.out.println("---------------------------------------------");
 	}
 	
 	/*

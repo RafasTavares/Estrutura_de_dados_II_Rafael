@@ -49,7 +49,6 @@ public class Test_Tree_Ternary {
 	
 	@Test
 	public void testGetRoot() {
-		assertEquals(tree.getRootValue(), 7);
-		System.out.println("Raiz: " + tree.getRootValue());
+		System.out.println("Raiz: " + tree.getRoot().getData());
 	}
 }
