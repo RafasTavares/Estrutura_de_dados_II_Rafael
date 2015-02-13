@@ -96,7 +96,7 @@ public class TernaryTree {
 	 * Elemento máximo é a criança com o botão direito do mais à direita subárvore do dado
 	 * Nó de árvore
 	*/ 
-	public TreeNode findMax(TreeNode root) {
+	private TreeNode findMax(TreeNode root) {
 		if (root == null) {
 			return root;
 		} else {
@@ -124,6 +124,7 @@ public class TernaryTree {
 		return false;
 	}
 	
+
 	// Passagem da Árvore em ordem a partir da raiz da árvore Ternaria
 	public void traverseTree(TreeNode root) {
 		if (root != null) {
@@ -148,18 +149,8 @@ public class TernaryTree {
 		System.out.println("---------------------------------------------");
 	}
 	
-	/*
-	 *  retorna o obj root
-	 */
 	public TreeNode getRoot (){
 		return this.root;	
-	}
-	
-	/*
-	 * Retorna o valor do root
-	 */
-	public int getRootValue (){
-		return root.getData();	
 	}
 }
 
