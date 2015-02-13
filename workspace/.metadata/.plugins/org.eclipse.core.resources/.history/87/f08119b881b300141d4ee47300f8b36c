@@ -1,0 +1,29 @@
+package Test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import Tree.TernaryTree;
+
+public class Test_Tree_Ternary {
+
+	@Before
+	public void Test_Tree_Ternary() {
+		TernaryTree tree = new TernaryTree();
+		insertMultiple(tree, 5, 4, 9, 5, 7, 2, 2);
+		String s = tree.toString();
+		System.out.println(s);
+		assertTrue(s.equals("5422597"));
+		tree.delete(9);
+		s = tree.toString();
+		assertTrue(s.equals("542257"));
+		insertMultiple(tree, 8, 7, 20, 20, 14, 12, 17, 30, 25, 30, 32, 14, 20,
+				20, 20);
+		s = tree.toString();
+		assertTrue(s.equals("5422577820141214172020202030253032"));
+		System.out.print(tree);
+	}
+
+}

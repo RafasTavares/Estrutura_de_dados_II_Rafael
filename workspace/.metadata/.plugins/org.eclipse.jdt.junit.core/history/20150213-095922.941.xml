@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Test_Tree_Ternary" project="EDII_Tree_Ternary" tests="10" started="10" failures="0" errors="0" ignored="0">
+  <testsuite name="Test.Test_Tree_Ternary" time="0.001">
+    <testcase name="testDuplicates" classname="Test.Test_Tree_Ternary" time="0.0"/>
+    <testcase name="testReplaceWithRight" classname="Test.Test_Tree_Ternary" time="0.0"/>
+    <testcase name="testEmpty" classname="Test.Test_Tree_Ternary" time="0.0"/>
+    <testcase name="testRightMost" classname="Test.Test_Tree_Ternary" time="0.0"/>
+    <testcase name="testReplaceWithLeft" classname="Test.Test_Tree_Ternary" time="0.0"/>
+    <testcase name="testReplaceWithCenter" classname="Test.Test_Tree_Ternary" time="0.0"/>
+    <testcase name="testDeleteLeaf" classname="Test.Test_Tree_Ternary" time="0.0"/>
+    <testcase name="testRootReplacement" classname="Test.Test_Tree_Ternary" time="0.0"/>
+    <testcase name="testInsert" classname="Test.Test_Tree_Ternary" time="0.001"/>
+    <testcase name="testNotInList" classname="Test.Test_Tree_Ternary" time="0.0"/>
+  </testsuite>
+</testrun>

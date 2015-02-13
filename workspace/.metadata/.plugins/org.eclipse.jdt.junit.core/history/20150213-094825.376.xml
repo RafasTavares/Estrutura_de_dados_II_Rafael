@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Test_Tree_Ternary" project="EDII_Tree_Ternary" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="Test.Test_Tree_Ternary" time="0.0">
+    <testcase name="testGetValue" classname="Test.Test_Tree_Ternary" time="0.0"/>
+    <testcase name="testPrint" classname="Test.Test_Tree_Ternary" time="0.0"/>
+    <testcase name="testContains" classname="Test.Test_Tree_Ternary" time="0.0"/>
+    <testcase name="testDelete" classname="Test.Test_Tree_Ternary" time="0.0"/>
+  </testsuite>
+</testrun>

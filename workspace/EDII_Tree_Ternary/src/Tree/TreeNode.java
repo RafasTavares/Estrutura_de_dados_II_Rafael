@@ -2,17 +2,53 @@ package Tree;
 
 public class TreeNode<T extends Comparable<T>> {
 
-	public TreeNode(char key) {
-		this.key = key;
+	/*
+	 *  Estrutura - Variáveis
+	 */
+	int data;
+	TreeNode left; 
+	TreeNode center; 
+	TreeNode right; 
+	
+	/*
+	 * Contrutor
+	 */
+	TreeNode(int data) {
+		this.data = data;
+		this.left = null;
+		this.center = null;
+		this.right = null;
 	}
 
-	char key;
-	T value;
-	TreeNode<T> leftNode;
-	TreeNode<T> middleNode;
-	TreeNode<T> rightNode;
+	public void setLeft(TreeNode left) {
+		this.left = left;
+	}
 
-	public String toString() {
-		return key + "";
+	public void setCenter(TreeNode center) {
+		this.center = center;
+	}
+
+	public void setRight(TreeNode right) {
+		this.right = right;
+	}
+
+	public TreeNode getLeft() {
+		return this.left;
+	}
+
+	public TreeNode getCenter() {
+		return this.center;
+	}
+
+	public TreeNode getRight() {
+		return this.right;
+	}
+
+	public int getData() {
+		return this.data;
+	}
+
+	public void setData(int value) {
+		this.data = value;
 	}
 }
