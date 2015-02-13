@@ -3,14 +3,13 @@ package Tree;
 public class Arvore {
 
 	public static void main(String[] args) {
-
 		TreeTernary t = new TreeTernary();
 		t.insereNode(1);
 		t.insereNode(2);
 
 		t.insereNode(3);
 
-		t.insereNode(9);
+		t.insereNode(4);
 
 		t.insereNode(5);
 
