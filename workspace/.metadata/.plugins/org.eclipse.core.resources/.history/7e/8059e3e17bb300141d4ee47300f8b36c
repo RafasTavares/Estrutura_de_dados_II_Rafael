@@ -1,0 +1,16 @@
+package Tree;
+
+public class TreeNode<T extends Comparable<T>> {
+	
+	public TreeNode(char key) {
+		this.key = key;
+		}
+		char key;
+		T value;
+		TreeNode leftNode;
+		TreeNode middleNode;
+		TreeNode rightNode;
+		public String toString() {
+		return key + "";
+		}
+		}}

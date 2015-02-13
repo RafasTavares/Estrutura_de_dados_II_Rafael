@@ -1,9 +1,9 @@
 package Tree;
 
-import java.util.List;
+import java.awt.List;
 import java.util.ArrayList;
 
-public class TreeTernary<T> {
+public class TreeTernary {
 
 	private TreeNode root;
 
@@ -29,7 +29,7 @@ public class TreeTernary<T> {
 		} else if (index < key.length() - 1) {
 			root.middleNode = put(root.middleNode, key, value, index + 1);
 		} else {
-			root.value = (Comparable) value;
+			root.value = value;
 		}
 		return root;
 	}
@@ -42,7 +42,7 @@ public class TreeTernary<T> {
 	 */
 	public T getValue(String key) {
 		TreeNode node = getNode(root, key, 0);
-		return (T) (node == null ? null : node.value);
+		return node == null ? null : node.value;
 	}
 
 	/**
