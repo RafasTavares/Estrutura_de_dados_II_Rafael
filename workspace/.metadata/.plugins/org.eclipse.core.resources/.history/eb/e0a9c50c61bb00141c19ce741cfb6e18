@@ -1,7 +1,17 @@
 package test;
 
+import static org.junit.Assert.*;
+
 import org.junit.Test;
+import org.junit.AfterClass;
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
+import org.junit.*;
+
 import binary.tree.BinaryTree;
+import static org.junit.Assert.*;
 
 public class TreeTest {
 
