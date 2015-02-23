@@ -1,0 +1,27 @@
+package test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+import org.junit.AfterClass;
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
+import org.junit.*;
+
+import binary.tree.BinaryTree;
+import static org.junit.Assert.*;
+
+public class TreeTest {
+	@Test
+	public void TestHeight() {
+		BinaryTree<Number> tree = new BinaryTree<Number>();
+		int[] mass = { 1, 2, 3};
+		for (int i = 0; i < mass.length; i++) {
+			tree.add(mass[i]);
+		}
+		System.out.println(tree.insertHeight(tree.root));
+		
+	}
+}

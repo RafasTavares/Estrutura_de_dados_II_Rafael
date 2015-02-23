@@ -1,0 +1,12 @@
+package binary.tree;
+
+
+public class Node {
+	Node left;
+	Node right;
+	T value;
+
+	Node(T value) {
+		this.value = value;
+	}
+}
