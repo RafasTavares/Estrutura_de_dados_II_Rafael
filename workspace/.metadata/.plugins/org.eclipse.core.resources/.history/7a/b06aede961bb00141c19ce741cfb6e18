@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
+
 import binary.tree.BinaryTree;
 
 public class TreeTest {
@@ -25,11 +26,10 @@ public class TreeTest {
 		tree.insertValue(3);
 		System.out.println(tree.toString());
 	}
-
-	@Test
-	public void TestContains() {
+	@Test 
+	public void TestRemove(){
 		assertEquals(tree.containsValue(7), false);
 		assertEquals(tree.containsValue(1), true);
-
+		
 	}
 }

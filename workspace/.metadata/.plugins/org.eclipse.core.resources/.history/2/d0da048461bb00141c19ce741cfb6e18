@@ -1,6 +1,5 @@
 package test;
 
-import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -25,11 +24,9 @@ public class TreeTest {
 		tree.insertValue(3);
 		System.out.println(tree.toString());
 	}
-
-	@Test
-	public void TestContains() {
-		assertEquals(tree.containsValue(7), false);
-		assertEquals(tree.containsValue(1), true);
-
+	@Test 
+	public void TestRemove(){
+		tree.containsValue(7);
+		
 	}
 }
