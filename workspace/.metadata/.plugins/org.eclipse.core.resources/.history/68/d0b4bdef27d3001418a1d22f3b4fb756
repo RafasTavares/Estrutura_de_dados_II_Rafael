@@ -7,7 +7,6 @@ package tree;
 /**
  *
  * @author Rafael Tavares
- * https://github.com/RafasTavares/Estrutura_de_dados_II_Rafael
  */
 public class No {
     private int valor;

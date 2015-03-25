@@ -7,7 +7,6 @@ package tree;
 /**
  *
  * @author Rafael Tavares
- * https://github.com/RafasTavares/Estrutura_de_dados_II_Rafael
  */
 public class No {
     private int valor;
@@ -72,7 +71,7 @@ public class No {
 
     @Override
     public String toString() {
-        return Integer.toString(this.getValor());
+        return Integer.toString(this.getValor()); //To change body of generated methods, choose Tools | Templates.
     }
     
     public No sucessor(No no)
