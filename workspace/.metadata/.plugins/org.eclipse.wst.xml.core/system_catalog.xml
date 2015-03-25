@@ -8,32 +8,23 @@
   <uri name="http://www.eclipse.org/eclipselink/xsds/eclipselink_orm_2_2.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.jpt.common.eclipselink.core_1.3.100.v201310142259.jar!/schemas/eclipselink_orm_2_2.xsd"/>
   <uri name="http://www.eclipse.org/eclipselink/xsds/eclipselink_orm_2_3.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.jpt.common.eclipselink.core_1.3.100.v201310142259.jar!/schemas/eclipselink_orm_2_3.xsd"/>
   <uri name="http://www.eclipse.org/eclipselink/xsds/eclipselink_orm_2_4.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.jpt.common.eclipselink.core_1.3.100.v201310142259.jar!/schemas/eclipselink_orm_2_4.xsd"/>
-  <uri name="http://www.eclipse.org/eclipselink/xsds/eclipselink_orm_2_5.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.persistence.jpa_2.6.0.v20130815-a4708b6.jar!/org/eclipse/persistence/jpa/eclipselink_orm_2_5.xsd"/>
+  <uri name="http://www.eclipse.org/eclipselink/xsds/eclipselink_orm_2_5.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.persistence.jpa_2.6.0.v20140809-296a69f.jar!/org/eclipse/persistence/jpa/eclipselink_orm_2_5.xsd"/>
   <uri name="http://www.eclipse.org/eclipselink/xsds/eclipselink_oxm_2_0.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.jpt.common.eclipselink.core_1.3.100.v201310142259.jar!/schemas/eclipselink_oxm_2_0.xsd"/>
   <uri name="http://www.eclipse.org/eclipselink/xsds/eclipselink_oxm_2_1.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.jpt.common.eclipselink.core_1.3.100.v201310142259.jar!/schemas/eclipselink_oxm_2_1.xsd"/>
   <uri name="http://www.eclipse.org/eclipselink/xsds/eclipselink_oxm_2_2.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.jpt.common.eclipselink.core_1.3.100.v201310142259.jar!/schemas/eclipselink_oxm_2_2.xsd"/>
   <uri name="http://www.eclipse.org/eclipselink/xsds/eclipselink_oxm_2_3.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.jpt.common.eclipselink.core_1.3.100.v201310142259.jar!/schemas/eclipselink_oxm_2_3.xsd"/>
   <uri name="http://www.eclipse.org/eclipselink/xsds/eclipselink_oxm_2_4.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.jpt.common.eclipselink.core_1.3.100.v201310142259.jar!/schemas/eclipselink_oxm_2_4.xsd"/>
   <uri name="http://www.eclipse.org/eclipselink/xsds/eclipselink_oxm_2_5.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.persistence.moxy_2.6.0.v20130815-a4708b6.jar!/org/eclipse/persistence/jaxb/eclipselink_oxm_2_5.xsd"/>
-  <uri name="http://www.eclipse.org/eclipselink/xsds/eclipselink_persistence_map_1.0.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.persistence.core_2.6.0.v20130815-a4708b6.jar!/org/eclipse/persistence/eclipselink_persistence_map_1.0.xsd"/>
+  <uri name="http://www.eclipse.org/eclipselink/xsds/eclipselink_persistence_map_1.0.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.persistence.core_2.6.0.v20140809-296a69f.jar!/org/eclipse/persistence/eclipselink_persistence_map_1.0.xsd"/>
   <uri name="http://www.eclipse.org/eclipselink/xsds/eclipselink_persistence_map_1.1.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.jpt.common.eclipselink.core_1.3.100.v201310142259.jar!/schemas/eclipselink_persistence_map_1.1.xsd"/>
   <uri name="http://www.eclipse.org/eclipselink/xsds/eclipselink_persistence_map_1.2.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.jpt.common.eclipselink.core_1.3.100.v201310142259.jar!/schemas/eclipselink_persistence_map_1.2.xsd"/>
   <uri name="http://www.eclipse.org/eclipselink/xsds/eclipselink_persistence_map_2.0.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.jpt.common.eclipselink.core_1.3.100.v201310142259.jar!/schemas/eclipselink_persistence_map_2.0.xsd"/>
-  <uri name="http://www.eclipse.org/eclipselink/xsds/eclipselink_persistence_map_2.3.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.persistence.core_2.6.0.v20130815-a4708b6.jar!/org/eclipse/persistence/eclipselink_persistence_map_2.3.xsd"/>
+  <uri name="http://www.eclipse.org/eclipselink/xsds/eclipselink_persistence_map_2.3.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.persistence.core_2.6.0.v20140809-296a69f.jar!/org/eclipse/persistence/eclipselink_persistence_map_2.3.xsd"/>
   <uri name="http://www.eclipse.org/eclipselink/xsds/eclipselink_sessions_1.0.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.jpt.common.eclipselink.core_1.3.100.v201310142259.jar!/schemas/eclipselink_sessions_1.0.xsd"/>
   <uri name="http://www.eclipse.org/eclipselink/xsds/eclipselink_sessions_1.1.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.jpt.common.eclipselink.core_1.3.100.v201310142259.jar!/schemas/eclipselink_sessions_1.1.xsd"/>
   <uri name="http://www.eclipse.org/eclipselink/xsds/eclipselink_sessions_1.2.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.jpt.common.eclipselink.core_1.3.100.v201310142259.jar!/schemas/eclipselink_sessions_1.2.xsd"/>
   <uri name="http://www.eclipse.org/eclipselink/xsds/eclipselink_sessions_2.0.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.jpt.common.eclipselink.core_1.3.100.v201310142259.jar!/schemas/eclipselink_sessions_2.0.xsd"/>
-  <uri name="http://www.eclipse.org/eclipselink/xsds/eclipselink_sessions_2.1.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.persistence.core_2.6.0.v20130815-a4708b6.jar!/org/eclipse/persistence/eclipselink_sessions_2.1.xsd"/>
-  <public publicId="-//Sun Microsystems, Inc.//DTD Facelet Taglib 1.0//EN" uri="jar:file:/C:/eclipse/plugins/org.eclipse.jst.jsf.facelet.core_1.3.0.v201405281344.jar!/dtd/facelet-taglib_1_0.dtd" webURL="facelet-taglib_1_0.dtd"/>
-  <system systemId="http://maven.apache.org/maven-v4_0_0.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.m2e.model.edit_1.5.0.20140606-0033.jar!/xsd/maven-v4_0_0.xsd"/>
-  <system systemId="http://maven.apache.org/xsd/maven-4.0.0.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.m2e.model.edit_1.5.0.20140606-0033.jar!/xsd/maven-v4_0_0.xsd"/>
-  <system systemId="http://maven.apache.org/xsd/settings-1.0.0.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.m2e.model.edit_1.5.0.20140606-0033.jar!/xsd/settings-v1_0_0.xsd"/>
-  <system systemId="http://maven.apache.org/xsd/profiles-1.0.0.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.m2e.model.edit_1.5.0.20140606-0033.jar!/xsd/profiles-v1_0_0.xsd"/>
-  <system systemId="http://maven.apache.org/xsd/archetype-1.0.0.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.m2e.model.edit_1.5.0.20140606-0033.jar!/xsd/archetype-1.0.0.xsd"/>
-  <system systemId="http://maven.apache.org/xsd/archetype-catalog-1.0.0.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.m2e.model.edit_1.5.0.20140606-0033.jar!/xsd/archetype-catalog-1.0.0.xsd"/>
-  <system systemId="http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.m2e.model.edit_1.5.0.20140606-0033.jar!/xsd/archetype-descriptor-1.0.0.xsd"/>
-  <uri id="org.w3c.xinclude" name="http://www.w3.org/2001/XInclude" uri="jar:file:/C:/eclipse/plugins/org.eclipse.wst.xsl.core_1.1.301.v20130423-0632.jar!/xslt-schemas/xinclude.xsd"/>
+  <uri name="http://www.eclipse.org/eclipselink/xsds/eclipselink_sessions_2.1.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.persistence.core_2.6.0.v20140809-296a69f.jar!/org/eclipse/persistence/eclipselink_sessions_2.1.xsd"/>
   <public publicId="-//Sun Microsystems, Inc.//DTD J2EE Application 1.2//EN" uri="jar:file:/C:/eclipse/plugins/org.eclipse.jst.standard.schemas_1.2.201.v201501151629.jar!/dtdsAndSchemas/application_1_2.dtd" webURL="http://java.sun.com/j2ee/dtds/application_1_2.dtd"/>
   <public publicId="-//Sun Microsystems, Inc.//DTD J2EE Application 1.3//EN" uri="jar:file:/C:/eclipse/plugins/org.eclipse.jst.standard.schemas_1.2.201.v201501151629.jar!/dtdsAndSchemas/application_1_3.dtd" webURL="http://java.sun.com/dtd/application_1_3.dtd"/>
   <public publicId="-//Sun Microsystems, Inc.//DTD J2EE Application Client 1.2//EN" uri="jar:file:/C:/eclipse/plugins/org.eclipse.jst.standard.schemas_1.2.201.v201501151629.jar!/dtdsAndSchemas/application-client_1_2.dtd" webURL="http://java.sun.com/j2ee/dtds/application-client_1_2.dtd"/>
@@ -185,6 +176,15 @@
   <uri name="http://www.w3.org/TR/html4/strict.dtd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.wst.standard.schemas_1.0.700.v201304171715.jar!/dtds/strict.dtd"/>
   <uri name="http://docs.oasis-open.org/ws-sx/ws-securitypolicy/200702" uri="jar:file:/C:/eclipse/plugins/org.eclipse.wst.standard.schemas_1.0.700.v201304171715.jar!/xsd/ws-securitypolicy-1.2.xsd"/>
   <uri name="http://docs.oasis-open.org/ws-sx/ws-securitypolicy/200802" uri="jar:file:/C:/eclipse/plugins/org.eclipse.wst.standard.schemas_1.0.700.v201304171715.jar!/xsd/ws-securitypolicy.xsd"/>
-  <system systemId="http://www.w3.org/2001/xml.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.xsd_2.10.0.v20140519-0339.jar!/cache/www.w3.org/2001/xml.xsd"/>
-  <uri name="http://www.w3.org/2001/XMLSchema" uri="jar:file:/C:/eclipse/plugins/org.eclipse.xsd_2.10.0.v20140519-0339.jar!/cache/www.w3.org/2001/XMLSchema.xsd"/>
+  <system systemId="http://www.w3.org/2001/xml.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.xsd_2.10.0.v20150123-0452.jar!/cache/www.w3.org/2001/xml.xsd"/>
+  <uri name="http://www.w3.org/2001/XMLSchema" uri="jar:file:/C:/eclipse/plugins/org.eclipse.xsd_2.10.0.v20150123-0452.jar!/cache/www.w3.org/2001/XMLSchema.xsd"/>
+  <public publicId="-//Sun Microsystems, Inc.//DTD Facelet Taglib 1.0//EN" uri="jar:file:/C:/eclipse/plugins/org.eclipse.jst.jsf.facelet.core_1.3.0.v201405282043.jar!/dtd/facelet-taglib_1_0.dtd" webURL="facelet-taglib_1_0.dtd"/>
+  <system systemId="http://maven.apache.org/maven-v4_0_0.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.m2e.model.edit_1.5.1.20150109-1820.jar!/xsd/maven-v4_0_0.xsd"/>
+  <system systemId="http://maven.apache.org/xsd/maven-4.0.0.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.m2e.model.edit_1.5.1.20150109-1820.jar!/xsd/maven-v4_0_0.xsd"/>
+  <system systemId="http://maven.apache.org/xsd/settings-1.0.0.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.m2e.model.edit_1.5.1.20150109-1820.jar!/xsd/settings-v1_0_0.xsd"/>
+  <system systemId="http://maven.apache.org/xsd/profiles-1.0.0.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.m2e.model.edit_1.5.1.20150109-1820.jar!/xsd/profiles-v1_0_0.xsd"/>
+  <system systemId="http://maven.apache.org/xsd/archetype-1.0.0.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.m2e.model.edit_1.5.1.20150109-1820.jar!/xsd/archetype-1.0.0.xsd"/>
+  <system systemId="http://maven.apache.org/xsd/archetype-catalog-1.0.0.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.m2e.model.edit_1.5.1.20150109-1820.jar!/xsd/archetype-catalog-1.0.0.xsd"/>
+  <system systemId="http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd" uri="jar:file:/C:/eclipse/plugins/org.eclipse.m2e.model.edit_1.5.1.20150109-1820.jar!/xsd/archetype-descriptor-1.0.0.xsd"/>
+  <uri id="org.w3c.xinclude" name="http://www.w3.org/2001/XInclude" uri="jar:file:/C:/eclipse/plugins/org.eclipse.wst.xsl.core_1.1.301.v201405151730.jar!/xslt-schemas/xinclude.xsd"/>
 </catalog>
