@@ -1,0 +1,23 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import tree.ArvoreBuscaBinaria;
+
+
+public class Test_tree {
+
+	@Test
+	public void test() {
+		ArvoreBuscaBinaria tree = new ArvoreBuscaBinaria();
+		 
+        tree.insere(30);
+        tree.insere(15);
+        tree.insere(50);
+        tree.insere(25);
+        tree.insere(10);
+        tree.insere(31);
+        System.out.println(tree.toString());
+	}
+
+}

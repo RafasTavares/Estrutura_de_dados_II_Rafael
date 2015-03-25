@@ -6,7 +6,7 @@ package tree;
 
 /**
  *
- * @author gustavo
+ * @author Rafael Tavares
  */
 public class No {
     private int valor;
@@ -71,7 +71,7 @@ public class No {
 
     @Override
     public String toString() {
-        return Integer.toString(this.getValor()); //To change body of generated methods, choose Tools | Templates.
+        return Integer.toString(this.getValor());
     }
     
     public No sucessor(No no)

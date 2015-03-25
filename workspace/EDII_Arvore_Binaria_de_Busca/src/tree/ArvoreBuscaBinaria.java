@@ -6,7 +6,7 @@ package tree;
 
 /**
  *
- * @author gustavo
+ * @author Rafael tavares
  */
 public class ArvoreBuscaBinaria {
 
