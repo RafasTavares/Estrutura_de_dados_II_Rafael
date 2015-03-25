@@ -1,0 +1,19 @@
+package test;
+
+import static org.junit.Assert.*;
+import tree.ArvoreBinaria;
+
+public class Test {
+
+	@org.junit.Test
+	public void test() {
+		ArvoreBinaria tree = new ArvoreBinaria();
+		tree.insereAluno(1, "Rafa");
+		tree.insereAluno(2, "Jefa");
+		tree.insereAluno(3, "Gabi");
+		tree.insereAluno(4, "Ian");
+		tree.insereAluno(5, "Bia");
+		tree.percorrerPreOrder();
+	}
+
+}

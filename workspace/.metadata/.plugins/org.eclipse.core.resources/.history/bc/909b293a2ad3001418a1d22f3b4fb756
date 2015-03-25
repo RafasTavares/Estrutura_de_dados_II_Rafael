@@ -1,0 +1,15 @@
+package test;
+
+import static org.junit.Assert.*;
+import tree.ArvoreBinaria;
+
+public class Test {
+
+	@org.junit.Test
+	public void test() {
+		ArvoreBinaria tree = new ArvoreBinaria();
+		tree.insereAluno(0, "Rafael");
+		System.out.println(tree.toString());
+	}
+
+}
