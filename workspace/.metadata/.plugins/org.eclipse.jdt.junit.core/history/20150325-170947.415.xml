@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="Test (1)" project="EDII_ABB_Comp" tests="3" started="3" failures="0" errors="0" ignored="0">
-  <testsuite name="test.Test" time="0.005">
-    <testcase name="testPreOrdem" classname="test.Test" time="0.001"/>
-    <testcase name="testPosOrdem" classname="test.Test" time="0.001"/>
-    <testcase name="testInOrdem" classname="test.Test" time="0.002"/>
-  </testsuite>
-</testrun>
