@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="TreeTest.TestInsert" project="EDII_Tree_Binary" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testcase name="TestInsert" classname="test.TreeTest" time="0.001"/>
-</testrun>
