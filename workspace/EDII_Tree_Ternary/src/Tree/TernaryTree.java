@@ -1,5 +1,8 @@
 package Tree;
 
+import java.text.SimpleDateFormat;
+import java.time.DateTimeException;
+
 public class TernaryTree {
 	TreeNode root;
 
@@ -32,7 +35,8 @@ public class TernaryTree {
 				root.setLeft(insert(root.getLeft(), value));
 			}
 			if (value == root.getData()) {
-				root.setCenter(insert(root.getCenter(), value));
+			long dt = System.currentTimeMillis();				
+			root.setCenter(insert(root.getCenter(), SimpleDateFormat.HOUR_OF_DAY0_FIELD));
 			}
 			if (value > root.getData()) {
 				root.setRight(insert(root.getRight(), value));
@@ -131,7 +135,7 @@ public class TernaryTree {
 		if (root != null) {
 			traverseTree(root.getLeft());
 			traverseTree(root.getCenter());
-			System.out.print(root.getData() + " ");
+			System.out.print(root.getData());
 			traverseTree(root.getRight());
 		}
 	}

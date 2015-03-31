@@ -14,17 +14,7 @@ public class Test_Tree_Ternary {
 
 	@Before
 	public void testContructor() {
-		tree.insert(7);
-		tree.insert(6);
-		tree.insert(5);
-		tree.insert(4);
-		tree.insert(3);
-		tree.insert(2);
-		tree.insert(1);
-		tree.insert(8);
-		tree.insert(9);
-		tree.insert(10);
-		tree.insert(2);
+
 	}
 
 	@Test
@@ -80,5 +70,16 @@ public class Test_Tree_Ternary {
 		// System.out.println("Tree: ");
 		tree1.traverseTree();
 		System.out.println("\n" + "-------------------------------------" + "\n");
+	}
+	
+	@Test
+	public void testHora(){
+		TernaryTree tt = new TernaryTree();
+		tt.insert(1);
+		tt.insert(2);
+		tt.insert(3);
+		tt.insert(2);
+		tt.traverseTree();
+		
 	}
 }

@@ -1,0 +1,2 @@
+eclipse.preferences.version=1
+prefWatchExpressions=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<watchExpressions>\r\n<expression enabled\="true" text\="value"/>\r\n<expression enabled\="true" text\="value"/>\r\n<expression enabled\="true" text\=" root.getData()"/>\r\n<expression enabled\="true" text\=""/>\r\n<expression enabled\="true" text\="root"/>\r\n<expression enabled\="true" text\="hora"/>\r\n<expression enabled\="true" text\="hora"/>\r\n<expression enabled\="true" text\="a"/>\r\n<expression enabled\="true" text\="vlHora"/>\r\n</watchExpressions>\r\n

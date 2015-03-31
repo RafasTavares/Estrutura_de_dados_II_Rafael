@@ -42,4 +42,18 @@ public class Test_tree {
 		assertEquals(" 2 ", tree.toString());
 	}
 
+	/// TESTA A INSERÇÃO DE NUMEROS IGUAIS
+	@Test
+	public void testeHora() {
+
+		ArvoreBuscaBinaria tree = new ArvoreBuscaBinaria();
+		tree.insere(1);
+		tree.insere(2);
+		tree.insere(3);
+		tree.insere(1);
+		tree.insere(2);
+		tree.insere(1);
+		System.out.println(tree.toString());
+	}
+
 }

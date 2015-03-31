@@ -13,6 +13,7 @@ public class No {
     private int valor;
     private No direita;
     private No esquerda;
+    private No meio;
 
     /**
      * @return the valor
@@ -40,6 +41,21 @@ public class No {
      */
     public void setDireita(No direita) {
         this.direita = direita;
+    } 
+    
+    /**
+     * 
+     * @return the meio
+     */
+    public No getMeio (){
+    	return meio;
+    }
+    
+    /**
+     * @param the set to set
+     */
+    public void setMeio( No meio){
+    	this.meio = meio;
     }
 
     /**
@@ -68,6 +84,12 @@ public class No {
         this.valor = valor;
         this.direita = direita;
         this.esquerda = esquerda;
+    }
+    public No(int valor, No direita, No esquerda, No meio) {
+        this.valor = valor;
+        this.direita = direita;
+        this.esquerda = esquerda;
+        this.meio = meio;
     }
 
     @Override
@@ -100,6 +122,4 @@ public class No {
         
         return antecessor;
     }
-   
-    
 }

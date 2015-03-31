@@ -1,0 +1,75 @@
+package test;
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import tree.ArvoreBuscaBinaria;
+
+public class Test_tree {
+
+	@Test
+	public void inserirTest() {
+		ArvoreBuscaBinaria tree = new ArvoreBuscaBinaria();
+
+		tree.insere(30);
+		System.out.println(tree.toString());
+		tree.insere(15);
+		System.out.println(tree.toString());
+		tree.insere(50);
+		System.out.println(tree.toString());
+		tree.insere(25);
+		System.out.println(tree.toString());
+		tree.insere(10);
+		System.out.println(tree.toString());
+		tree.insere(31);
+		System.out.println(tree.toString());
+		tree.remove(30);
+		System.out.println("Remove 30: " + tree.toString());
+	}
+
+	@Test
+	public void removerTest() {
+		ArvoreBuscaBinaria tree = new ArvoreBuscaBinaria();
+		tree.insere(3);
+		tree.insere(2);
+		tree.insere(1);
+		System.out.println("Tree: " + tree.toString());
+		assertEquals(" 1 2 3 ", tree.toString());
+		tree.remove(3);
+		System.out.println("Remove 3: " + tree.toString());
+		assertEquals(" 1 2 ", tree.toString());
+		tree.remove(1);
+		System.out.println("Remove 1: " + tree.toString());
+		assertEquals(" 2 ", tree.toString());
+	}
+	
+	@Test
+	public void testImprimir (){
+		ArvoreBuscaBinaria tree = new ArvoreBuscaBinaria();
+		tree.insere(30); // 3
+		tree.insere(20); // 1
+		tree.insere(210); // 4
+		tree.insere(22); // 2
+		tree.insere(10); // raiz
+		System.out.println("Arvore: " +"\n" +  tree.imprimir());
+	}
+	@Test
+	public void testImprimir2(){
+		ArvoreBuscaBinaria tree = new ArvoreBuscaBinaria();
+		tree.insere(211); // 3
+		tree.insere(212); // 3
+		tree.insere(213); // 3
+		tree.insere(216); // 3
+		tree.insere(214); // 3
+		tree.insere(215); // 3
+		tree.insere(30); // 3
+		tree.insere(31); // 3
+		tree.insere(32); // 3
+		tree.insere(20); // 1
+		
+		tree.insere(210); // 4
+		tree.insere(22); // 2
+		tree.insere(10); // raiz
+		System.out.println("Arvore: " +"\n" +  tree.imprimir());
+	}
+}
